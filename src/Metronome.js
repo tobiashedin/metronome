@@ -85,7 +85,7 @@ class Metronome extends React.Component {
                     <input
                         type="range"
                         min="60"
-                        max="185"
+                        max="180"
                         value={bpm}
                         onChange={this.handleBpmChange}
                     />
